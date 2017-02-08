@@ -1,8 +1,6 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
 import sys 
-tmp = [1,3,2,7,4,6,0,10]
-#getMinNil_A(tmp)
 
 def getMinNil_A(nums):
     dct = []
@@ -27,13 +25,11 @@ def getMinNil_B(nums):
     return len(nums)
 
 if len(sys.argv) == 1 :
-    print getMinNil_A(tmp)
-    print getMinNil_B(tmp)
+    nums = [1,3,2,7,4,6,0,10]
 else :
-    tmp = []
+    nums = []
     for i in range(len(sys.argv)) :
         if i > 0 :
-          #  print i-1,sys.argv[i]
-            tmp.insert(i-1,int(sys.argv[i]))
-    print getMinNil_A(tmp)
-    print getMinNil_B(tmp)
+            nums.insert(i-1,int(sys.argv[i]))
+print getMinNil_A(nums)
+print getMinNil_B(nums)
