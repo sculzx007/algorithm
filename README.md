@@ -9,3 +9,7 @@ python findNilNumber.py 0 1 4 7 3 5 6 2 9 10 15 13 14
 - 题目2：一个int数组每个数字都出现两次，只有一个出现一次，求这个数字
 python findSingleNumber.py
 python findSingleNumber.py 1 2 3 4 3 2 1 6 7 8 5 5 8 6
+
+- 题目3：一个int数组，一个目标值target，求数组中是否有两个数的和是这个target，写代码
+python have2equalTarget.py
+python have2equalTarget.py 4 2 1 
