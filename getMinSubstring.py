@@ -44,16 +44,10 @@ def minSubstring(string,target) :
                         if string[ttail] in keys :
                             dct[string[ttail]] = dct[string[ttail]] - 1
                         ttail = ttail + 1
-                    while (string[thead] not in keys or dct[string[thead]] > 1) and thead > ttail:
-                        if string[thead] in keys :
-                            dct[string[thead]] = dct[string[thead]] - 1
-                        thead = thead - 1
-            if head - tail > thead -ttail :
-                print ("起始位置：",ttail,"结束位置",thead,string[ttail:thead + 1])
-                return [ttail,thead]
-            else :
-                print ("起始位置：",tail,"结束位置",head,string[tail:head + 1])
-                return [tail,head]
+                        tail = ttail
+                        head = thead
+            print ("起始位置：",tail,"结束位置",head,string[tail:head + 1])
+            return [tail,head]
 
 if len(sys.argv) == 1 :
     target = "ad"
