@@ -12,4 +12,8 @@ python findSingleNumber.py 1 2 3 4 3 2 1 6 7 8 5 5 8 6
 
 - 题目3：一个int数组，一个目标值target，求数组中是否有两个数的和是这个target，写代码
 python have2equalTarget.py
-python have2equalTarget.py 4 2 1 
+python have2equalTarget.py 4 2 1
+
+- 题目4：给定两个字符串a和b，求a中的一个最小的子字符串，使之包含b中的所有字符（b中字符可能有重复） 
+python getMinSubstring.py
+python getMinSubstring.py asdgdgshdgsajfrgdhd ad 
