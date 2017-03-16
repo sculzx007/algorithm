@@ -16,4 +16,7 @@ python have2equalTarget.py 4 2 1
 
 - 题目4：给定两个字符串a和b，求a中的一个最小的子字符串，使之包含b中的所有字符（b中字符可能有重复） 
 python getMinSubstring.py
-python getMinSubstring.py asdgdgshdgsajfrgdhd ad 
+python getMinSubstring.py asdgdgshdgsajfrgdhd ad
+
+- 题目5：给定一个能够生成均匀1~5随机枚举数的函数，请设计一个能够生成均匀1~7随机枚举数的函数。 
+python Rand5_7.py
